@@ -1,0 +1,244 @@
+
+
+@media screen and (max-width: 1269px) {
+    /* Move the menu icon to the right */
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    /* Adjust the bar size */
+    .bar {
+        width: 25px;
+    }
+
+    .navbar ul {
+        display: none; /* Hide the menu items by default on small screens */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0; /* Align the menu to the right */
+        background-color: #333;
+        width: 100%;
+        z-index: 1;
+        box-shadow: 0 2px 2px #efefef;
+    }
+
+    .navbar.active ul {
+        display: flex; /* Show the menu items when the menu is active */
+    }
+
+    .navbar.active li {
+        margin-right: 0;
+        padding: 10px;
+        text-align: center;
+    }
+    #logo {
+    display: none;
+    width: 12px;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  #logo {
+    display: none;
+    width: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 0 13px;
+
+
+    }
+}
+
+@media (max-width: 768px) {
+    .school-logo img {
+        max-width: 270px; /* Adjust the maximum width for smaller screens */
+
+
+    }
+}
+
+
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 55px; /* Adjust the maximum width for smaller screens */
+
+    }
+}
+
+
+@media (max-width: 251px) {
+    .school-logo img {
+        max-width: 150px; /* Set the maximum width for screens 251px or less */
+    }
+}
+
+
+@media (max-width: 197px) {
+    .school-logo img {
+        max-width: 110px; /* Set the maximum width for screens 251px or less */
+    }
+}
+
+
+
+
+@media (max-width: 197px) {
+    #hero h1 {
+        font-size: 20px; /* Decrease font size for smaller screens */
+    }
+}
+
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .hero-content {
+    text-align: center;
+  }
+
+  
+  .hero-content h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+  }
+  .hero-content p{
+    position: absolute;
+    left: 30%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+
+    color: #0ef;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .message-us {
+        width: 90%; /* Adjust the width for smaller screens */
+        margin: 0 auto; /* Center the div horizontally on smaller screens */
+        font-size: 14px; /* Adjust the font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        font-size: 12px; /* Adjust the font size for smaller screens */
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  #contact,
+  #fee-methods {
+    overflow-x: hidden;
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .fee-tittle {
+    font-size: 25px;
+  }
+}
+
+
+
+@media (max-width: 602px) {
+  .hero-content p{
+    position: absolute;
+    left: 27%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+
+    color: #0ef;
+  }
+}
+
+@media (max-width: 488px) {
+    .hero-content p{
+    position: absolute;
+    left: 19%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+
+
+    }
+}
+
+
+
+
+@media (max-width: 326px) {
+    .hero-content p{
+        display: none;
+
+    }
+}
+
+@media (max-width: 367px) {
+    .hero-content p{
+         position: absolute;
+        left: 12%;
+        top: 65%;
+        transform: translate(-50%, -50%);
+        
+
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  #features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .feature {
+    flex-basis: calc(50% - 20px);
+    margin: 0 10px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .feature h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+
+  .feature p {
+    font-size: 1rem;
+  }
+}
+
